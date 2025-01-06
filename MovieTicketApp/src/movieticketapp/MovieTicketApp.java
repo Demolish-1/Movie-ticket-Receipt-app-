@@ -160,7 +160,7 @@ public class MovieTicketApp extends JFrame {
 
                 if (movieTickets.ValidateData(ticketData)) {
                     double totalPrice = movieTickets.CalculateTotalTicketPrice(ticketCount, ticketPrice);
-                    reportArea.setText("dylan Gorrah:\n");
+                    reportArea.setText("customer's Receipt:\n");
                     reportArea.append("Movie: " + movieName + "\n");
                     reportArea.append("Ticket Price: R" + ticketPrice + "\n");
                     reportArea.append("Number of Tickets: " + ticketCount + "\n");
